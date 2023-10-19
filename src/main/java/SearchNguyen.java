@@ -63,9 +63,9 @@ public class SearchNguyen extends HttpServlet {
             if (keyword.isEmpty() || name.contains(keyword)) {
                out.println("ID: " + id + ", ");
                out.println("User: " + name + ", ");
-               out.println("Email: " + age + ", ");
-               out.println("Phone: " + year + ", ");
-               out.println("Address: " + email + "<br>");
+               out.println("Age: " + age + ", ");
+               out.println("Year: " + year + ", ");
+               out.println("Email: " + email + "<br>");
             }
          }
          out.println("<a href=/webproject/search_nguyen.html>Search Data</a> <br>");
